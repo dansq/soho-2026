@@ -22,7 +22,7 @@ title: 近未来ビブリオ学園・AI
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   雙峰祭・2026・AIリテラシー
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/soho-2026" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
