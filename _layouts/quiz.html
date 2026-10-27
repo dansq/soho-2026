@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="quiz-page-wrapper">
+  {{ content }}
+</div>
+
+<!-- Quizdown Core & Extensions -->
+<script src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let config = {
+      primaryColor: "{{ page.primary_color | default: '#2563eb' }}",
+      shuffleQuestions: {{ page.shuffle_questions | default: false }},
+      shuffleAnswers: {{ page.shuffle_answers | default: true }}
+    };
+    quizdown
+      .register(quizdownHighlight)
+      .register(quizdownKatex)
+      .init(config);
+  });
+</script>

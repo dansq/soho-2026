@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .quiz-container {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 90%;
+    }
+    h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 1.5rem 0;
+    }
+    button.option-btn {
+      padding: 12px 16px;
+      font-size: 1rem;
+      text-align: left;
+      background: #f8f9fa;
+      border: 2px solid #dee2e6;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    button.option-btn:hover:not(:disabled) {
+      background: #e9ecef;
+      border-color: #adb5bd;
+    }
+    button.option-btn.correct {
+      background: #d4edda;
+      border-color: #28a745;
+      color: #155724;
+    }
+    button.option-btn.wrong {
+      background: #f8d7da;
+      border-color: #dc3545;
+      color: #721c24;
+    }
+    #next-btn, #restart-btn {
+      background: #0066cc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      display: none;
+    }
+    #next-btn:hover, #restart-btn:hover {
+      background: #0052a3;
+    }
+    .progress {
+      font-size: 0.875rem;
+      color: #666;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="quiz-container" id="quiz-box">
+    <div class="progress" id="progress">Question 1 of 3</div>
+    <h2 id="question-text">Loading question...</h2>
+    <div class="options" id="options-container"></div>
+    <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+    <button id="restart-btn" onclick="restartQuiz()">Play Again</button>
+  </div>
+
+  <script>
+    const quizData = [
+      {
+        question: "Which language runs natively in a web browser?",
+        options: ["Java", "C", "Python", "JavaScript"],
+        correct: 3
+      },
+      {
+        question: "What does CSS stand for?",
+        options: [
+          "Central Style Sheets",
+          "Cascading Style Sheets",
+          "Cascading Simple Sheets",
+          "Cars SUVs Sailboats"
+        ],
+        correct: 1
+      },
+      {
+        question: "Which HTML tag is used to include JavaScript code?",
+        options: ["<js>", "<scripting>", "<script>", "<javascript>"],
+        correct: 2
+      }
+    ];
+
+    let currentQuestion = 0;
+    let score = 0;
+
+    const progressEl = document.getElementById("progress");
+    const questionEl = document.getElementById("question-text");
+    const optionsEl = document.getElementById("options-container");
+    const nextBtn = document.getElementById("next-btn");
+    const restartBtn = document.getElementById("restart-btn");
+
+    function loadQuestion() {
+      nextBtn.style.display = "none";
+      optionsEl.innerHTML = "";
+      
+      const currentQuiz = quizData[currentQuestion];
+      progressEl.innerText = `Question ${currentQuestion + 1} of ${quizData.length}`;
+      questionEl.innerText = currentQuiz.question;
+
+      currentQuiz.options.forEach((optionText, index) => {
+        const button = document.createElement("button");
+        button.innerText = optionText;
+        button.classList.add("option-btn");
+        button.onclick = () => selectAnswer(index, button);
+        optionsEl.appendChild(button);
+      });
+    }
+
+    function selectAnswer(selectedIndex, selectedButton) {
+      const correctIndex = quizData[currentQuestion].correct;
+      const allButtons = optionsEl.querySelectorAll(".option-btn");
+
+      allButtons.forEach((btn, idx) => {
+        btn.disabled = true;
+        if (idx === correctIndex) {
+          btn.classList.add("correct");
+        }
+      });
+
+      if (selectedIndex === correctIndex) {
+        score++;
+      } else {
+        selectedButton.classList.add("wrong");
+      }
+
+      nextBtn.style.display = "inline-block";
+    }
+
+    function nextQuestion() {
+      currentQuestion++;
+      if (currentQuestion < quizData.length) {
+        loadQuestion();
+      } else {
+        showResults();
+      }
+    }
+
+    function showResults() {
+      progressEl.innerText = "Quiz Completed!";
+      questionEl.innerText = `You scored ${score} out of ${quizData.length}!`;
+      optionsEl.innerHTML = "";
+      nextBtn.style.display = "none";
+      restartBtn.style.display = "inline-block";
+    }
+
+    function restartQuiz() {
+      currentQuestion = 0;
+      score = 0;
+      restartBtn.style.display = "none";
+      loadQuestion();
+    }
+
+    loadQuestion();
+  </script>
+
+</body>
+</html>
