@@ -64,7 +64,7 @@ AIで作った画像はどっち？
 ### メニュー
 
 1. [x] ![wat]({{ site.baseurl }}/assets/images/menuA.jpeg)
-><br><span style="color:red">×</span>「コンクリート<br><span style="color:red">×</span>シェイク」が販売されている。
+><br><span style="color:red">×</span>「コンクリート・シェイク」が販売されている。
 ><br><span style="color:red">×</span>小さな文字が文字化けしている。<br><br>
 1. [ ] ![wat]({{ site.baseurl }}/assets/images/menuB.jpg)
 ><br>本物<br><br>

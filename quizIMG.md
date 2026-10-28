@@ -75,8 +75,7 @@ AIで作った画像はどっち？
 ### 汽車
 
 1. [x] ![wat]({{ site.baseurl }}/assets/images/trainA.jpeg)
-><br><span style="color:red">×</span>実際の描画
-><br><span style="color:red">×</span>塗装ツールと一致しない、画像のぼやけたディテール。<br><br>  
+><br><span style="color:red">×</span>実際の描画・塗装ツールと一致しない、画像のぼやけたディテール。<br><br>  
 1. [ ] ![wat]({{ site.baseurl }}/assets/images/trainB.jpg)
 ><br>本物<br><br>
 
