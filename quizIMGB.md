@@ -36,7 +36,7 @@ AIで作った画像はどっち？
 ><br>本物<br><br>
 
 
-### ベーカー
+### パン屋
 
 1. [x] ![wat]({{ site.baseurl }}/assets/images/bakerA.jpeg)
 ><br><span style="color:red">×</span>パン職人が素手で熱いトレイを持っている。   
@@ -48,7 +48,7 @@ AIで作った画像はどっち？
 ### 波
 
 1. [x] ![wat]({{ site.baseurl }}/assets/images/wavesA.jpeg)
-><br><span style="color:red">×</span>画像の中央が歪んでいる<br><br>
+><br><span style="color:red">×</span>画像の中央が歪んでいる。<br><br>
 1. [ ] ![wat]({{ site.baseurl }}/assets/images/wavesB.jpg)
 ><br>本物<br><br>
 
