@@ -7,7 +7,7 @@ shuffle_answers: true
 siteNav: true
 ---
 
-# AI画像クイズ
+# AI画像クイズ（A）
 {% capture quiz_questions %}
 
 ### サッカー

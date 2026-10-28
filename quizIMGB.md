@@ -7,7 +7,7 @@ shuffle_answers: true
 siteNav: true
 ---
 
-# AI画像クイズ
+# AI画像クイズ（B）
 {% capture quiz_questions %}
 
 ### コーヒー
