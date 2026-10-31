@@ -2,7 +2,7 @@
 layout: quiz
 title: 画像クイズ（B）
 primary_color: "#059669"
-shuffle_questions: false
+shuffle_questions: true
 shuffle_answers: true
 siteNav: true
 ---
