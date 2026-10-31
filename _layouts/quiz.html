@@ -24,3 +24,52 @@ layout: default
       .init(config);
   });
 </script>
+
+<script>
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    document.querySelectorAll('.quizdown').forEach((quizHost) => {
+      const shadow = quizHost.shadowRoot;
+      if (!shadow) return;
+
+      // 1. Inject custom background styles into the Shadow DOM
+      const style = document.createElement('style');
+      style.textContent = `
+        /* Target result rows marked by our observer */
+        .result-row-correct {
+          background-color: #d4edda !important;
+          color: #155724 !important;
+          border-radius: 6px;
+          padding: 6px 10px;
+          margin-bottom: 4px;
+        }
+        .result-row-wrong {
+          background-color: #f8d7da !important;
+          color: #721c24 !important;
+          border-radius: 6px;
+          padding: 6px 10px;
+          margin-bottom: 4px;
+        }
+      `;
+      shadow.appendChild(style);
+
+      // 2. Watch for the results screen rendering and tag right/wrong rows
+      const observer = new MutationObserver(() => {
+        // Quizdown uses green/red inline colors or checkmark/cross symbols on the result list
+        shadow.querySelectorAll('li, tr, .result-line').forEach((row) => {
+          const text = row.textContent || '';
+          const html = row.innerHTML || '';
+
+          if (text.includes('✓') || text.includes('✔') || html.includes('green') || row.querySelector('.correct')) {
+            row.classList.add('result-row-correct');
+          } else if (text.includes('✗') || text.includes('✘') || text.includes('×') || html.includes('red') || row.querySelector('.wrong, .incorrect')) {
+            row.classList.add('result-row-wrong');
+          }
+        });
+      });
+
+      observer.observe(shadow, { childList: true, subtree: true });
+    });
+  }, 200);
+});
+</script>
