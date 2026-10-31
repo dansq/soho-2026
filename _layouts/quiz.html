@@ -55,6 +55,12 @@ window.addEventListener('load', () => {
 
       // 2. Watch for the results screen rendering and tag right/wrong rows
       const observer = new MutationObserver(() => {
+        // 1. Replace "Your Quiz Results" heading text
+        shadow.querySelectorAll('h1, h2, h3, .result-title, p').forEach((el) => {
+          if (el.textContent && el.textContent.trim().toLowerCase() === 'your quiz results') {
+            el.textContent = 'あなたのクイズ結果'; // <-- Put your custom text here
+          }
+        });
         // Quizdown uses green/red inline colors or checkmark/cross symbols on the result list
         shadow.querySelectorAll('li, tr, .result-line').forEach((row) => {
           const text = row.textContent || '';

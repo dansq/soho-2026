@@ -12,59 +12,59 @@ siteNav: true
 
 {% capture quiz_questions %}
 
-### 学生や一般市民が独自のカスタム機械学習モデルを構築し始めるために、現在必要なものは何ですか？
+### <ruby>学生<rt>がくせい</rt></ruby>や<ruby>一般市民<rt>いっぱんしみん</rt></ruby>が<ruby>独自<rt>どくじ</rt></ruby>のカスタム<ruby>機械学習<rt>きかいがくしゅう</rt></ruby>モデルを<ruby>構築<rt>こうちく</rt></ruby>し<ruby>始<rt>はじ</rt></ruby>めるために、<ruby>現在必要<rt>げんざいひつよう</rt></ruby>なものは<ruby>何<rt>なに</rt></ruby>ですか？
 
-> AIの作成（Creating AI）はもはや専門家だけのものではありません。現在のAI技術の民主化により、若い学習者でもプログラミングなしで機械学習モデルを構築できるようになっています。
+> AIの<ruby>作成<rt>さくせい</rt></ruby>（Creating AI）はもはや<ruby>専門家<rt>せんもんか</rt></ruby>だけのものではありません。<ruby>現在<rt>げんざい</rt></ruby>のAI<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>民主化<rt>みんしゅか</rt></ruby>により、<ruby>若<rt>わか</rt></ruby>い<ruby>学習者<rt>がくしゅうしゃ</rt></ruby>でもプログラミングなしで<ruby>機械学習<rt>きかいがくしゅう</rt></ruby>モデルを<ruby>構築<rt>こうちく</rt></ruby>できるようになっています。
 
-1. [ ] コンピュータサイエンスの高度な学位。
-1. [ ] 構文ベースのプログラミングとコーディングに関する深い知識。
-1. [x] GoogleのTeachable MachineやML-for-kidsのような、アクセスしやすく使いやすいツール。
-1. [ ] 数百万ドルするスーパーコンピュータ。
+1. [ ] コンピュータサイエンスの<ruby>高度<rt>こうど</rt></ruby>な<ruby>学位<rt>がくい</rt></ruby>。
+1. [ ] <ruby>構文<rt>こうぶん</rt></ruby>ベースのプログラミングとコーディングに<ruby>関<rt>かん</rt></ruby>する<ruby>深<rt>ふか</rt></ruby>い<ruby>知識<rt>ちしき</rt></ruby>。
+1. [x] GoogleのTeachable MachineやML-for-kidsのような、アクセスしやすく<ruby>使<rt>つか</rt></ruby>いやすいツール。
+1. [ ] <ruby>数百万<rt>すうひゃくまん</rt></ruby>ドルするスーパーコンピュータ。
 
-### 問題解決に「AI思考（AI thinking）」を適用することは、次のうちどれに最も近いですか？
+### <ruby>問題解決<rt>もんだいかいけつ</rt></ruby>に「AI<ruby>思考<rt>しこう</rt></ruby>（AI thinking）」を<ruby>適用<rt>てきよう</rt></ruby>することは、<ruby>次<rt>つぎ</rt></ruby>のうちどれに<ruby>最<rt>もっと</rt></ruby>も<ruby>近<rt>ちか</rt></ruby>いですか？
 
-> AI思考は、問題解決をサポートし、セマンティクスを処理し、データ内の隠れたパターンを発見するための論理とアルゴリズムを構築することと定義されています。
+> AI<ruby>思考<rt>しこう</rt></ruby>は、<ruby>問題解決<rt>もんだいかいけつ</rt></ruby>をサポートし、セマンティクスを<ruby>処理<rt>しょり</rt></ruby>し、データ<ruby>内<rt>ない</rt></ruby>の<ruby>隠<rt>かく</rt></ruby>れたパターンを<ruby>発見<rt>はっけん</rt></ruby>するための<ruby>論理<rt>ろんり</rt></ruby>とアルゴリズムを<ruby>構築<rt>こうちく</rt></ruby>することと<ruby>定義<rt>ていぎ</rt></ruby>されています。
 
-1. [ ] 後で復唱するために大量のデータを暗記する。
-1. [x] データ内の隠れたパターンを発見するために、論理とアルゴリズムを構築する。
-1. [ ] 人間の直感だけで答えを推測する。
-1. [ ] 壊れたコンピュータの画面を直すためにマニュアルを読む。
+1. [ ] <ruby>後<rt>あと</rt></ruby>で<ruby>復唱<rt>ふくしょう</rt></ruby>するために<ruby>大量<rt>たいりょう</rt></ruby>のデータを<ruby>暗記<rt>あんき</rt></ruby>する。
+1. [x] データ<ruby>内<rt>ない</rt></ruby>の<ruby>隠<rt>かく</rt></ruby>れたパターンを<ruby>発見<rt>はっけん</rt></ruby>するために、<ruby>論理<rt>ろんり</rt></ruby>とアルゴリズムを<ruby>構築<rt>こうちく</rt></ruby>する。
+1. [ ] <ruby>人間<rt>にんげん</rt></ruby>の<ruby>直感<rt>ちょっかん</rt></ruby>だけで<ruby>答<rt>こた</rt></ruby>えを<ruby>推測<rt>すいそく</rt></ruby>する。
+1. [ ] <ruby>壊<rt>こわ</rt></ruby>れたコンピュータの<ruby>画面<rt>がめん</rt></ruby>を<ruby>直<rt>なお</rt></ruby>すためにマニュアルを<ruby>読<rt>よ</rt></ruby>む。
 
-### ユニセフ（UNICEF）などの国際機関が、AIシステムにおける「透明性（Transparency）」と「説明可能性（Explainability）」の必要性を強く主張している主な理由は何ですか？
+### ユニセフ（UNICEF）などの<ruby>国際機関<rt>こくさいきかん</rt></ruby>が、AIシステムにおける「<ruby>透明性<rt>とうめいせい</rt></ruby>（Transparency）」と「<ruby>説明可能性<rt>せつめいかのうせい</rt></ruby>（Explainability）」の<ruby>必要性<rt>ひつようせい</rt></ruby>を<ruby>強<rt>つよ</rt></ruby>く<ruby>主張<rt>しゅちょう</rt></ruby>している<ruby>主<rt>おも</rt></ruby>な<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか？
 
-> AIの倫理的評価において、透明性と説明可能性は、AIシステムが社会に与える影響や意思決定のプロセスをユーザーが理解するために不可欠であると論じられています。
+> AIの<ruby>倫理的評価<rt>りんりてきひょうか</rt></ruby>において、<ruby>透明性<rt>とうめいせい</rt></ruby>と<ruby>説明可能性<rt>せつめいかのうせい</rt></ruby>は、AIシステムが<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>与<rt>あた</rt></ruby>える<ruby>影響<rt>えいきょう</rt></ruby>や<ruby>意思決定<rt>いしけってい</rt></ruby>のプロセスをユーザーが<ruby>理解<rt>りかい</rt></ruby>するために<ruby>不可欠<rt>ふかけつ</rt></ruby>であると<ruby>論<rt>ろん</rt></ruby>じられています。
 
-1. [ ] AIシステムの処理速度を向上させ、企業の利益を最大化するため。
-1. [ ] ハードウェアのバッテリー消費を抑える技術を開発するため。
-1. [x] AIシステム、ユーザーとの相互作用、および社会への影響を人々が正しく理解するための有意義な情報を提供するため。
-1. [ ] 人間がAIのコードをすべて手作業で書き換えられるようにするため。
+1. [ ] AIシステムの<ruby>処理速度<rt>しょりそくど</rt></ruby>を<ruby>向上<rt>こうじょう</rt></ruby>させ、<ruby>企業<rt>きぎょう</rt></ruby>の<ruby>利益<rt>りえき</rt></ruby>を<ruby>最大化<rt>さいだいか</rt></ruby>するため。
+1. [ ] ハードウェアのバッテリー<ruby>消費<rt>しょうひ</rt></ruby>を<ruby>抑<rt>おさ</rt></ruby>える<ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>開発<rt>かいはつ</rt></ruby>するため。
+1. [x] AIシステム、ユーザーとの<ruby>相互作用<rt>そうごさよう</rt></ruby>、および<ruby>社会<rt>しゃかい</rt></ruby>への<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>人々<rt>ひとびと</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しく<ruby>理解<rt>りかい</rt></ruby>するための<ruby>有意義<rt>ゆういぎ</rt></ruby>な<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>提供<rt>ていきょう</rt></ruby>するため。
+1. [ ] <ruby>人間<rt>にんげん</rt></ruby>がAIのコードをすべて<ruby>手作業<rt>てさぎょう</rt></ruby>で<ruby>書<rt>か</rt></ruby>き<ruby>換<rt>か</rt></ruby>えられるようにするため。
 
-### ブルームのタキソノミー（教育目標の分類学）に基づき、AIリテラシーの「創造（Create）」レベルに達していることを最もよく示す活動はどれですか？
+### ブルームのタキソノミー（<ruby>教育目標<rt>きょういくもくひょう</rt></ruby>の<ruby>分類学<rt>ぶんるいがく</rt></ruby>）に<ruby>基<rt>もと</rt></ruby>づき、AIリテラシーの「<ruby>創造<rt>そうぞう</rt></ruby>（Create）」レベルに<ruby>達<rt>たっ</rt></ruby>していることを<ruby>最<rt>もっと</rt></ruby>もよく<ruby>示<rt>しめ</rt></ruby>す<ruby>活動<rt>かつどう</rt></ruby>はどれですか？
 
-> ブルームのタキソノミーの最上位層である「創造（Create）」は、高次の思考スキルを用いて、新たなAIアプリケーションを設計（Design）、組み立て（Assemble）、構築（Build）、開発（Develop）することを指します。
+> ブルームのタキソノミーの<ruby>最上位層<rt>さいじょういそう</rt></ruby>である「<ruby>創造<rt>そうぞう</rt></ruby>（Create）」は、<ruby>高次<rt>こうじ</rt></ruby>の<ruby>思考<rt>しこう</rt></ruby>スキルを<ruby>用<rt>もち</rt></ruby>いて、<ruby>新<rt>あら</rt></ruby>たなAIアプリケーションを<ruby>設計<rt>せっけい</rt></ruby>（Design）、<ruby>組<rt>く</rt></ruby>み<ruby>立<rt>た</rt></ruby>て（Assemble）、<ruby>構築<rt>こうちく</rt></ruby>（Build）、<ruby>開発<rt>かいはつ</rt></ruby>（Develop）することを<ruby>指<rt>さ</rt></ruby>します。
 
-1. [ ] AIの定義や基本的な用語の意味をテストで正確に再現（暗記）する。
-1. [ ] チャットボットがどのように機能するかを他人に説明する。
-1. [x] 現実の課題を解決するために、新しいAIアプリケーションを自ら設計、組み立て、構築する。
-1. [ ] 既存の音声認識アプリを使って、外国語の単語を翻訳する。
+1. [ ] AIの<ruby>定義<rt>ていぎ</rt></ruby>や<ruby>基本的<rt>きほんてき</rt></ruby>な<ruby>用語<rt>ようご</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>をテストで<ruby>正確<rt>せいかく</rt></ruby>に<ruby>再現<rt>さいげん</rt></ruby>（<ruby>暗記<rt>あんき</rt></ruby>）する。
+1. [ ] チャットボットがどのように<ruby>機能<rt>きのう</rt></ruby>するかを<ruby>他人<rt>たにん</rt></ruby>に<ruby>説明<rt>せつめい</rt></ruby>する。
+1. [x] <ruby>現実<rt>げんじつ</rt></ruby>の<ruby>課題<rt>かだい</rt></ruby>を<ruby>解決<rt>かいけつ</rt></ruby>するために、<ruby>新<rt>あたら</rt></ruby>しいAIアプリケーションを<ruby>自<rt>みずか</rt></ruby>ら<ruby>設計<rt>せっけい</rt></ruby>、<ruby>組<rt>く</rt></ruby>み<ruby>立<rt>た</rt></ruby>て、<ruby>構築<rt>こうちく</rt></ruby>する。
+1. [ ] <ruby>既存<rt>きぞん</rt></ruby>の<ruby>音声認識<rt>おんせいにんしき</rt></ruby>アプリを<ruby>使<rt>つか</rt></ruby>って、<ruby>外国語<rt>がいこくご</rt></ruby>の<ruby>単語<rt>たんご</rt></ruby>を<ruby>翻訳<rt>ほんやく</rt></ruby>する。
 
-### 「AI思考（AI thinking）」を適用（Apply）して複雑な問題を解決する際、最初に行うべき重要な認知的アプローチはどれですか？
+### 「AI<ruby>思考<rt>しこう</rt></ruby>（AI thinking）」を<ruby>適用<rt>てきよう</rt></ruby>（Apply）して<ruby>複雑<rt>ふくざつ</rt></ruby>な<ruby>問題<rt>もんだい</rt></ruby>を<ruby>解決<rt>かいけつ</rt></ruby>する<ruby>際<rt>さい</rt></ruby>、<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>うべき<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>認知的<rt>にんちてき</rt></ruby>アプローチはどれですか？
 
-> AIの問題を分析し創造する（Evaluate and create）プロセスには、情報の整理、比較、問題の分解（Decompose）、および抽象化（Abstract）といった高次の思考活動が含まれます。
+> AIの<ruby>問題<rt>もんだい</rt></ruby>を<ruby>分析<rt>ぶんせき</rt></ruby>し<ruby>創造<rt>そうぞう</rt></ruby>する（Evaluate and create）プロセスには、<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>整理<rt>せいり</rt></ruby>、<ruby>比較<rt>ひかく</rt></ruby>、<ruby>問題<rt>もんだい</rt></ruby>の<ruby>分解<rt>ぶんかい</rt></ruby>（Decompose）、および<ruby>抽象化<rt>ちゅうしょうか</rt></ruby>（Abstract）といった<ruby>高次<rt>こうじ</rt></ruby>の<ruby>思考活動<rt>しこうかつどう</rt></ruby>が<ruby>含<rt>ふく</rt></ruby>まれます。
 
-1. [x] 問題をより小さな単位に分解（Decompose）し、抽象化（Abstract）して論理を構築する。
-1. [ ] 既存のAIアプリを無作為にダウンロードし、直感で操作する。
-1. [ ] 過去のデータをすべて破棄し、新しいデータのみを使用する。
-1. [ ] 問題解決をあきらめ、完全に自動化されるまで待つ。
+1. [x] <ruby>問題<rt>もんだい</rt></ruby>をより<ruby>小<rt>ちい</rt></ruby>さな<ruby>単位<rt>たんい</rt></ruby>に<ruby>分解<rt>ぶんかい</rt></ruby>（Decompose）し、<ruby>抽象化<rt>ちゅうしょうか</rt></ruby>（Abstract）して<ruby>論理<rt>ろんり</rt></ruby>を<ruby>構築<rt>こうちく</rt></ruby>する。
+1. [ ] <ruby>既存<rt>きぞん</rt></ruby>のAIアプリを<ruby>無作為<rt>むさくい</rt></ruby>にダウンロードし、<ruby>直感<rt>ちょっかん</rt></ruby>で<ruby>操作<rt>そうさ</rt></ruby>する。
+1. [ ] <ruby>過去<rt>かこ</rt></ruby>のデータをすべて<ruby>破棄<rt>はき</rt></ruby>し、<ruby>新<rt>あたら</rt></ruby>しいデータのみを<ruby>使用<rt>しよう</rt></ruby>する。
+1. [ ] <ruby>問題解決<rt>もんだいかいけつ</rt></ruby>をあきらめ、<ruby>完全<rt>かんぜん</rt></ruby>に<ruby>自動化<rt>じどうか</rt></ruby>されるまで<ruby>待<rt>ま</rt></ruby>つ。
 
-### 生徒が教室でAIの概念を実際の課題に応用（Apply）するのに適した、教育的アプローチ（Pedagogical approach）はどれですか？
+### <ruby>生徒<rt>せいと</rt></ruby>が<ruby>教室<rt>きょうしつ</rt></ruby>でAIの<ruby>概念<rt>がいねん</rt></ruby>を<ruby>実際<rt>じっさい</rt></ruby>の<ruby>課題<rt>かだい</rt></ruby>に<ruby>応用<rt>おうよう</rt></ruby>（Apply）するのに<ruby>適<rt>てき</rt></ruby>した、<ruby>教育的<rt>きょういくてき</rt></ruby>アプローチ（Pedagogical approach）はどれですか？
 
-> 生徒がAIの事前知識を応用して自主的に問題を分析・解決するためには、構成主義などの原則に基づいた現実的かつ協働的（Collaborative）なプロジェクト学習が効果的であると推奨されています。
+> <ruby>生徒<rt>せいと</rt></ruby>がAIの<ruby>事前知識<rt>じぜんちしき</rt></ruby>を<ruby>応用<rt>おうよう</rt></ruby>して<ruby>自主的<rt>じしゅてき</rt></ruby>に<ruby>問題<rt>もんだい</rt></ruby>を<ruby>分析<rt>ぶんせき</rt></ruby>・<ruby>解決<rt>かいけつ</rt></ruby>するためには、<ruby>構成主義<rt>こうせいしゅぎ</rt></ruby>などの<ruby>原則<rt>げんそく</rt></ruby>に<ruby>基<rt>もと</rt></ruby>づいた<ruby>現実的<rt>げんじつてき</rt></ruby>かつ<ruby>協働的<rt>きょうどうてき</rt></ruby>（Collaborative）なプロジェクト<ruby>学習<rt>がくしゅう</rt></ruby>が<ruby>効果的<rt>こうかてき</rt></ruby>であると<ruby>推奨<rt>すいしょう</rt></ruby>されています。
 
-1. [ ] 教科書を黙読し、一問一答の知識テストのみを繰り返す。
-1. [x] 構成主義（Constructionism）に基づき、現実世界の問題をテーマにした協働的なプロジェクト学習を行う。
-1. [ ] 生徒同士のコミュニケーションを禁止し、個人でのみ作業を進める。
-1. [ ] AI技術の使用を避け、伝統的な手書きのレポートのみを課す。
+1. [ ] <ruby>教科書<rt>きょうかしょ</rt></ruby>を<ruby>黙読<rt>もくどく</rt></ruby>し、<ruby>一問一答<rt>いちもんいっとう</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>テストのみを<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>す。
+1. [x] <ruby>構成主義<rt>こうせいしゅぎ</rt></ruby>（Constructionism）に<ruby>基<rt>もと</rt></ruby>づき、<ruby>現実世界<rt>げんじつせかい</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>をテーマにした<ruby>協働的<rt>きょうどうてき</rt></ruby>なプロジェクト<ruby>学習<rt>がくしゅう</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う。
+1. [ ] <ruby>生徒同士<rt>せいとどうし</rt></ruby>のコミュニケーションを<ruby>禁止<rt>きんし</rt></ruby>し、<ruby>個人<rt>こじん</rt></ruby>でのみ<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>進<rt>すす</rt></ruby>める。
+1. [ ] AI<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>使用<rt>しよう</rt></ruby>を<ruby>避<rt>さ</rt></ruby>け、<ruby>伝統的<rt>でんとうてき</rt></ruby>な<ruby>手書<rt>てが</rt></ruby>きのレポートのみを<ruby>課<rt>か</rt></ruby>す。
 
 {% endcapture %}
 
